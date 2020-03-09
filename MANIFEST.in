@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include real_estate *.css
+recursive-include real_estate *.csv
+recursive-include real_estate *.html
+recursive-include real_estate *.ico
+recursive-include real_estate *.js
+recursive-include real_estate *.json
+recursive-include real_estate *.md
+recursive-include real_estate *.png
+recursive-include real_estate *.py
+recursive-include real_estate *.svg
+recursive-include real_estate *.txt
+recursive-exclude real_estate *.pyc
